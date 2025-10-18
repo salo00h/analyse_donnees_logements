@@ -1,0 +1,370 @@
+
+    <html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Analyse de la colonne surface_reelle_bati</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, sans-serif;
+                margin: 40px;
+                background-color: #f4f6f8;
+                color: #333;
+            }
+            .card {
+                background: white; padding: 24px; border-radius: 12px;
+                box-shadow: 0 4px 16px rgba(0,0,0,0.08); margin: auto; width: 80%;
+            }
+            h1 { text-align: center; color: #0d6efd; margin-bottom: 10px; }
+            .kpi {
+                display: flex; gap: 18px; justify-content: center; flex-wrap: wrap;
+                margin: 20px 0;
+            }
+            .item {
+                background: #e9f2ff; border-radius: 10px; padding: 10px 14px;
+                min-width: 200px; text-align: center; border: 1px solid #cfe2ff;
+            }
+            th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: center; }
+            th {
+                background-color: #0d6efd;
+                color: white;
+                font-weight: 600;
+            }
+            tr:nth-child(even) { background-color: #f9fbff; }
+            footer {
+                text-align: center;
+                margin-top: 20px;
+                color: #555;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h1>📊 Analyse de la colonne « surface_reelle_bati »</h1>
+            <p style="text-align:center; color:#555;">Généré le 18/10/2025 à 13:10</p>
+
+            <div class="kpi">
+                <div class="item"><b>Total des lignes</b><br><span style="font-size:22px">389593</span></div>
+                <div class="item"><b>Valeurs valides</b><br><span style="font-size:22px">218929</span></div>
+                <div class="item"><b>Valeurs manquantes (NaN)</b><br><span style="font-size:22px">170664</span></div>
+                <div class="item"><b>Taux de valeurs manquantes</b><br><span style="font-size:22px">43.81%</span></div>
+            </div>
+
+            <h2 style="color:#0d6efd;">Aperçu des 100 premières lignes</h2>
+            <table class="dataframe table table-hover">
+  <thead>
+    <tr style="text-align: center;">
+      <th>surface_reelle_bati</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>24.0</td>
+    </tr>
+    <tr>
+      <td>43.0</td>
+    </tr>
+    <tr>
+      <td>66.0</td>
+    </tr>
+    <tr>
+      <td>51.0</td>
+    </tr>
+    <tr>
+      <td>12.0</td>
+    </tr>
+    <tr>
+      <td>19.0</td>
+    </tr>
+    <tr>
+      <td>12.0</td>
+    </tr>
+    <tr>
+      <td>79.0</td>
+    </tr>
+    <tr>
+      <td>174.0</td>
+    </tr>
+    <tr>
+      <td>212.0</td>
+    </tr>
+    <tr>
+      <td>21.0</td>
+    </tr>
+    <tr>
+      <td>50.0</td>
+    </tr>
+    <tr>
+      <td>61.0</td>
+    </tr>
+    <tr>
+      <td>41.0</td>
+    </tr>
+    <tr>
+      <td>30.0</td>
+    </tr>
+    <tr>
+      <td>125.0</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>65.0</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>75.0</td>
+    </tr>
+    <tr>
+      <td>163.0</td>
+    </tr>
+    <tr>
+      <td>72.0</td>
+    </tr>
+    <tr>
+      <td>40.0</td>
+    </tr>
+    <tr>
+      <td>20.0</td>
+    </tr>
+    <tr>
+      <td>40.0</td>
+    </tr>
+    <tr>
+      <td>39.0</td>
+    </tr>
+    <tr>
+      <td>11.0</td>
+    </tr>
+    <tr>
+      <td>30.0</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>110.0</td>
+    </tr>
+    <tr>
+      <td>387.0</td>
+    </tr>
+    <tr>
+      <td>387.0</td>
+    </tr>
+    <tr>
+      <td>381.0</td>
+    </tr>
+    <tr>
+      <td>49.0</td>
+    </tr>
+    <tr>
+      <td>252.0</td>
+    </tr>
+    <tr>
+      <td>253.0</td>
+    </tr>
+    <tr>
+      <td>314.0</td>
+    </tr>
+    <tr>
+      <td>262.0</td>
+    </tr>
+    <tr>
+      <td>199.0</td>
+    </tr>
+    <tr>
+      <td>461.0</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>219.0</td>
+    </tr>
+    <tr>
+      <td>265.0</td>
+    </tr>
+    <tr>
+      <td>98.0</td>
+    </tr>
+    <tr>
+      <td>271.0</td>
+    </tr>
+    <tr>
+      <td>261.0</td>
+    </tr>
+    <tr>
+      <td>278.0</td>
+    </tr>
+    <tr>
+      <td>32.0</td>
+    </tr>
+    <tr>
+      <td>52.0</td>
+    </tr>
+    <tr>
+      <td>120.0</td>
+    </tr>
+    <tr>
+      <td>42.0</td>
+    </tr>
+    <tr>
+      <td>40.0</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>85.0</td>
+    </tr>
+    <tr>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>21.0</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>103.0</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>12.0</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>26.0</td>
+    </tr>
+    <tr>
+      <td>173.0</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>33.0</td>
+    </tr>
+    <tr>
+      <td>10.0</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>24.0</td>
+    </tr>
+    <tr>
+      <td>18.0</td>
+    </tr>
+    <tr>
+      <td>35.0</td>
+    </tr>
+    <tr>
+      <td>23.0</td>
+    </tr>
+    <tr>
+      <td>32.0</td>
+    </tr>
+    <tr>
+      <td>33.0</td>
+    </tr>
+    <tr>
+      <td>83.0</td>
+    </tr>
+    <tr>
+      <td>9.0</td>
+    </tr>
+    <tr>
+      <td>41.0</td>
+    </tr>
+    <tr>
+      <td>110.0</td>
+    </tr>
+    <tr>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <td>210.0</td>
+    </tr>
+    <tr>
+      <td>24.0</td>
+    </tr>
+    <tr>
+      <td>10.0</td>
+    </tr>
+    <tr>
+      <td>32.0</td>
+    </tr>
+    <tr>
+      <td>12.0</td>
+    </tr>
+    <tr>
+      <td>12.0</td>
+    </tr>
+    <tr>
+      <td>70.0</td>
+    </tr>
+    <tr>
+      <td>96.0</td>
+    </tr>
+    <tr>
+      <td>145.0</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>187.0</td>
+    </tr>
+    <tr>
+      <td>50.0</td>
+    </tr>
+    <tr>
+      <td>113.0</td>
+    </tr>
+    <tr>
+      <td>142.0</td>
+    </tr>
+    <tr>
+      <td>49.0</td>
+    </tr>
+    <tr>
+      <td>107.0</td>
+    </tr>
+  </tbody>
+</table>
+            <p style="text-align:center; color:#777;">Aperçu limité à 100 lignes pour lisibilité.</p>
+        </div>
+        <footer>
+            ✅ Rapport généré automatiquement par <b>Saleh BA-ZIGHIFAN</b>
+        </footer>
+    </body>
+    </html>
+    

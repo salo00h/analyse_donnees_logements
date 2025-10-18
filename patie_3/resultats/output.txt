@@ -1,0 +1,6 @@
+Nombre total de logements entre 9 et 14 m² : 12587
+
+Méthode utilisée :
+- Lecture du fichier CSV avec pandas.
+- Filtrage de la colonne 'surface_reelle_bati' entre 9 et 14 m².
+- Export des lignes correspondantes dans un fichier Excel propre et lisible.

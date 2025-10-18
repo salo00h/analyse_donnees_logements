@@ -1,0 +1,304 @@
+
+    <html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Rapport d'analyse - Saleh BA-ZIGHIFAN</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, sans-serif;
+                margin: 40px;
+                background-color: #f4f6f8;
+                color: #333;
+            }
+            h1 {
+                text-align: center;
+                color: #0056b3;
+                margin-bottom: 10px;
+            }
+            h2 {
+                color: #007bff;
+                border-bottom: 2px solid #007bff;
+                padding-bottom: 5px;
+                width: 80%;
+                margin: 30px auto 10px;
+            }
+            .info {
+                text-align: center;
+                background-color: #e9ecef;
+                border-radius: 10px;
+                padding: 15px;
+                width: 70%;
+                margin: 0 auto 30px;
+                box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+            }
+            table {
+                border-collapse: collapse;
+                margin: auto;
+                width: 85%;
+                font-size: 15px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                background-color: white;
+            }
+            th, td {
+                border: 1px solid #ccc;
+                padding: 10px 12px;
+                text-align: center;
+            }
+            th {
+                background-color: #007bff;
+                color: white;
+                font-weight: 600;
+            }
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            footer {
+                text-align: center;
+                margin-top: 40px;
+                font-size: 14px;
+                color: #555;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>📊 Rapport d'analyse générale du fichier CSV</h1>
+        <div class='info'>
+            <p><strong>Date de génération :</strong> 18/10/2025 à 12:27</p>
+            <p><strong>Nombre total de lignes :</strong> 389593</p>
+            <p><strong>Nombre de colonnes :</strong> 41</p>
+            <p><strong>Colonnes :</strong> id_mutation, date_mutation, numero_disposition, nature_mutation, valeur_fonciere, adresse_numero, adresse_suffixe, adresse_nom_voie, adresse_code_voie, code_postal, code_commune, nom_commune, code_departement, ancien_code_commune, ancien_nom_commune, id_parcelle, ancien_id_parcelle, numero_volume, lot1_numero, lot1_surface_carrez, lot2_numero, lot2_surface_carrez, lot3_numero, lot3_surface_carrez, lot4_numero, lot4_surface_carrez, lot5_numero, lot5_surface_carrez, nombre_lots, code_type_local, type_local, surface_reelle_bati, nombre_pieces_principales, code_nature_culture, nature_culture, code_nature_culture_speciale, nature_culture_speciale, surface_terrain, longitude, latitude, section_prefixe</p>
+        </div>
+        <h2>Statistiques descriptives</h2>
+        <table class="dataframe table table-hover">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>id_mutation</th>
+      <th>date_mutation</th>
+      <th>numero_disposition</th>
+      <th>nature_mutation</th>
+      <th>valeur_fonciere</th>
+      <th>adresse_numero</th>
+      <th>adresse_suffixe</th>
+      <th>adresse_nom_voie</th>
+      <th>adresse_code_voie</th>
+      <th>code_postal</th>
+      <th>code_commune</th>
+      <th>nom_commune</th>
+      <th>code_departement</th>
+      <th>ancien_code_commune</th>
+      <th>ancien_nom_commune</th>
+      <th>id_parcelle</th>
+      <th>ancien_id_parcelle</th>
+      <th>numero_volume</th>
+      <th>lot1_numero</th>
+      <th>lot1_surface_carrez</th>
+      <th>lot2_numero</th>
+      <th>lot2_surface_carrez</th>
+      <th>lot3_numero</th>
+      <th>lot3_surface_carrez</th>
+      <th>lot4_numero</th>
+      <th>lot4_surface_carrez</th>
+      <th>lot5_numero</th>
+      <th>lot5_surface_carrez</th>
+      <th>nombre_lots</th>
+      <th>code_type_local</th>
+      <th>type_local</th>
+      <th>surface_reelle_bati</th>
+      <th>nombre_pieces_principales</th>
+      <th>code_nature_culture</th>
+      <th>nature_culture</th>
+      <th>code_nature_culture_speciale</th>
+      <th>nature_culture_speciale</th>
+      <th>surface_terrain</th>
+      <th>longitude</th>
+      <th>latitude</th>
+      <th>section_prefixe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>389593</td>
+      <td>389593</td>
+      <td>389593</td>
+      <td>389593</td>
+      <td>384412.0</td>
+      <td>388013.0</td>
+      <td>17288</td>
+      <td>388061</td>
+      <td>388061</td>
+      <td>388056.0</td>
+      <td>389593</td>
+      <td>389593</td>
+      <td>389593</td>
+      <td>7</td>
+      <td>7</td>
+      <td>389593</td>
+      <td>7</td>
+      <td>1528.0</td>
+      <td>350075</td>
+      <td>151930.0</td>
+      <td>159954</td>
+      <td>44852.00</td>
+      <td>27052.0</td>
+      <td>4623.0</td>
+      <td>9954.0</td>
+      <td>1151.00</td>
+      <td>4246.0</td>
+      <td>384.0</td>
+      <td>389593</td>
+      <td>384581.0</td>
+      <td>384581</td>
+      <td>218929.0</td>
+      <td>384508.0</td>
+      <td>37966</td>
+      <td>37966</td>
+      <td>739</td>
+      <td>739</td>
+      <td>37966.0</td>
+      <td>388990.00000</td>
+      <td>388990.000000</td>
+      <td>389593</td>
+    </tr>
+    <tr>
+      <th>unique</th>
+      <td>151710</td>
+      <td>1481</td>
+      <td>16</td>
+      <td>7</td>
+      <td>41020.0</td>
+      <td>762.0</td>
+      <td>14</td>
+      <td>3960</td>
+      <td>3891</td>
+      <td>41.0</td>
+      <td>41</td>
+      <td>21</td>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>38608</td>
+      <td>1</td>
+      <td>535.0</td>
+      <td>6787</td>
+      <td>24318.0</td>
+      <td>4306</td>
+      <td>13955.00</td>
+      <td>1254.0</td>
+      <td>2314.0</td>
+      <td>770.0</td>
+      <td>601.00</td>
+      <td>557.0</td>
+      <td>213.0</td>
+      <td>84</td>
+      <td>9.0</td>
+      <td>5</td>
+      <td>1782.0</td>
+      <td>42.0</td>
+      <td>5</td>
+      <td>5</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1269.0</td>
+      <td>53999.00000</td>
+      <td>48895.000000</td>
+      <td>160</td>
+    </tr>
+    <tr>
+      <th>top</th>
+      <td>2022-1670285</td>
+      <td>2022-04-19</td>
+      <td>1</td>
+      <td>Vente</td>
+      <td>300000.0</td>
+      <td>6.0</td>
+      <td>B</td>
+      <td>RUE DE VAUGIRARD</td>
+      <td>9624</td>
+      <td>75015.0</td>
+      <td>75115</td>
+      <td>Paris 15e Arrondissement</td>
+      <td>75</td>
+      <td>ancien_code_commune</td>
+      <td>ancien_nom_commune</td>
+      <td>75119000AI0012</td>
+      <td>ancien_id_parcelle</td>
+      <td>2.0</td>
+      <td>10</td>
+      <td>9532.0</td>
+      <td>7</td>
+      <td>70.01</td>
+      <td>9.0</td>
+      <td>1.0</td>
+      <td>9.0</td>
+      <td>19.45</td>
+      <td>9.0</td>
+      <td>50.0</td>
+      <td>1</td>
+      <td>2.0</td>
+      <td>Appartement</td>
+      <td>30.0</td>
+      <td>0.0</td>
+      <td>S</td>
+      <td>sols</td>
+      <td>IMM</td>
+      <td>Dépendances d'ensemble immobilier</td>
+      <td>516.0</td>
+      <td>2.37544</td>
+      <td>48.893444</td>
+      <td>000AR</td>
+    </tr>
+    <tr>
+      <th>freq</th>
+      <td>2034</td>
+      <td>3513</td>
+      <td>272457</td>
+      <td>381026</td>
+      <td>1620.0</td>
+      <td>7521.0</td>
+      <td>13499</td>
+      <td>2707</td>
+      <td>2707</td>
+      <td>32548.0</td>
+      <td>32609</td>
+      <td>50712</td>
+      <td>274905</td>
+      <td>7</td>
+      <td>7</td>
+      <td>1041</td>
+      <td>7</td>
+      <td>105.0</td>
+      <td>6700</td>
+      <td>290.0</td>
+      <td>2508</td>
+      <td>29.00</td>
+      <td>501.0</td>
+      <td>14.0</td>
+      <td>224.0</td>
+      <td>12.00</td>
+      <td>83.0</td>
+      <td>8.0</td>
+      <td>135336</td>
+      <td>136716.0</td>
+      <td>190939</td>
+      <td>4398.0</td>
+      <td>133930.0</td>
+      <td>36963</td>
+      <td>36963</td>
+      <td>730</td>
+      <td>730</td>
+      <td>945.0</td>
+      <td>945.00000</td>
+      <td>954.000000</td>
+      <td>7201</td>
+    </tr>
+  </tbody>
+</table>
+        <footer>
+            ✅ Rapport généré automatiquement par <strong>Saleh BA-ZIGHIFAN</strong><br>
+            © 2025 - Analyse de données professionnelle
+        </footer>
+    </body>
+    </html>
+    
